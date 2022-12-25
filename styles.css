@@ -20,10 +20,10 @@ h1 {text-align: center;
 
 .hovergrow {
     text-shadow: 0.5px 0.5px 10px #3a3a3a72;
-    font-size: 8vw;
+    font-size: 12vw;
     transition: transform 1s;
     white-space: nowrap;
-    font-family: 'Potta One', cursive;
+    font-family: 'Caveat', cursive;
 
 }
 
