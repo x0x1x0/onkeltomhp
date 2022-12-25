@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Potta+One&display=swap');
+
+body {
+    background-color: rgb(197, 197, 197);
+    color: white;
+  }
+
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hovergrow {
+    text-shadow: 0.5px 0.5px 10px #3a3a3a72;
+    font-size: 56px;
+    transition: transform 1s;
+    font-family: 'Caveat', cursive;
+}
+
+.hovergrow:hover {
+    transform: scale(1.5);
+}
