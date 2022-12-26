@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body {
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(130, 149, 132);
     color: white;
   }
 
 h1 {text-align: center;
 
+
+}
+
+.h1call {
+    font-family: 'Roboto', monospace;
+    padding: 2rem;
 
 }
 
@@ -24,10 +31,24 @@ h1 {text-align: center;
     transition: transform 1s;
     white-space: nowrap;
     max-width: 1000px;
-    font-family: 'Caveat', cursive;
+    font-family: 'Roboto Mono', monospace; ;
 
 }
 
 .hovergrow:hover {
     transform: scale(1.5);
+}
+
+
+.komoot-card {
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.navbar-brand {
+    font-family: 'Caveat', Courier, monospace;
+    font-size: 2rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
 }
